@@ -1,0 +1,11 @@
+server:
+  port: 8801
+spring:
+  application:
+    name: eureka-server
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://172.16.207.252:8801/eureka/
+    register-with-eureka: false
